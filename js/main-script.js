@@ -2,11 +2,11 @@ import * as THREE from "three";
 
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { VRButton } from "three/addons/webxr/VRButton.js";
-import { generateFlowerFieldTexture, generateStarSkyTexture } from "./texture.js";
-import { Moon } from "./moon.js";
-import { OakTree } from "./oakTree.js";
-import { AlentejoHouse } from "./house.js";
-import { createOvni } from './ovni.js';
+import { generateFlowerFieldTexture, generateStarSkyTexture } from "https://web.tecnico.ulisboa.pt/ist1105900/cg/cg-trabalhoC/js/texture.js";
+import { Moon } from "https://web.tecnico.ulisboa.pt/ist1105900/cg/cg-trabalhoC/js/moon.js";
+import { OakTree } from "https://web.tecnico.ulisboa.pt/ist1105900/cg/cg-trabalhoC/js/oakTree.js";
+import { AlentejoHouse } from "https://web.tecnico.ulisboa.pt/ist1105900/cg/cg-trabalhoC/js/house.js";
+import { createOvni } from 'https://web.tecnico.ulisboa.pt/ist1105900/cg/cg-trabalhoC/js/ovni.js';
 
 
 //////////////////////
@@ -29,7 +29,7 @@ const LIGHT_INTENSITY = Object.freeze({
 });
 
 const TERRAIN_HALF_SIZE = 64;
-const TERRAIN_HEIGHT_MAP_PATH = '../assets/heightmap.png';
+const TERRAIN_HEIGHT_MAP_PATH = 'https://web.tecnico.ulisboa.pt/ist1105900/cg/cg-trabalhoC/assets/heightmap.png';
 
 // Manual offset to adjust tree positioning
 const TREE_Y_OFFSET = -1.5;
